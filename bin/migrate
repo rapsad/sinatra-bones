@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require 'dm-migrations'
+
+require File.expand_path('../../boot', __FILE__)
+
+DataMapper.auto_migrate!
